@@ -22,31 +22,31 @@ These are the external packages that extend R's functionality.
 **scales:** Extends ggplot2 with tools for scaling and formatting axes and legends.\
 
 ## Functions(Arguments and Parameters)
-**read_excel**("C:/Users/Agni/OneDrive/Documents/Data Science for Social Justice/Cahoots 2021-2022.xlsx"):
+**read_excel**("C:/Users/Agni/OneDrive/Documents/Data Science for Social Justice/Cahoots 2021-2022.xlsx"):\
 Argument: The path to your Excel file. Replace with the correct path or use a relative path if the data is within your project folder.\
-**filter():**
+**filter():**\
 Arguments: Conditions to filter the data by (e.g., date ranges, specific dispatch reasons).\
-**select():**
+**select():**\
 Arguments: Column names to keep in the filtered dataset.\
-**table():**
+**table():**\
 Argument: A data frame or multiple vectors to create a frequency table.\
-**as.data.frame():**
+**as.data.frame():**\
 Argument: An object (in this case, a table) to convert into a data frame.\
-**mutate():**
+**mutate():**\
 Arguments: New columns to create or existing columns to modify (e.g., converting to dates).\
-**group_by():**
+**group_by():**\
 Arguments: Columns to group the data by for calculations.\
-**summarize():**
+**summarize():**\
 Arguments: Summary functions to apply to the grouped data (e.g., mean, sum).\
-**geom_line(), geom_col(), geom_bar():**
+**geom_line(), geom_col(), geom_bar():**\
 These are ggplot2 functions to add lines, columns, or bars to a plot.\
-**labs():**
+**labs():**\
 Arguments: Labels for the plot's title, x-axis, y-axis, and legend.\
-**scale_color_manual(), scale_fill_manual():**
+**scale_color_manual(), scale_fill_manual():**\
 Arguments: Custom colors for plot elements.\
-**theme_minimal():**
+**theme_minimal():**\
 A ggplot2 theme for a clean plot appearance.\
-**ggsave():**
+**ggsave():**\
 Arguments: Filename and dimensions for saving the plot.\
 
 
